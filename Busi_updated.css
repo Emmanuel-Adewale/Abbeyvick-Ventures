@@ -1,0 +1,193 @@
+/* Reset and base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+#Logo {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: #ff9800;
+}
+
+.hero {
+  background-image: url('construction-technicians-are-mixing-cement-stone-sand-construction.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.order-button {
+  padding: 15px 30px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #e68a00;
+}
+
+.section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; /* Adjusts the form position */
+}
+
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Aligns text and labels to the left */
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff9800;
+  outline: none;
+}
+
+.send-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.send-button:hover {
+  background-color: #e68a00;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#Image-gallery {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.image {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.image img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image img:hover {
+  transform: scale(1.1);
+}
+

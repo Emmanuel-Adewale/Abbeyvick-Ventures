@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+}
+#Image-gallery {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+.image {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.image img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
